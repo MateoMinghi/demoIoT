@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+app/__pycache__/
+app/migrations/__pycache__/
+nasahack/__pycache__/
+*.py[cod]
+*.pyo
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+pyvenv.cfg
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+
+# Django migrations
+**/migrations/
+
+# Local settings file (if you have any local settings)
+local_settings.py
+
+# Static files build output
+/staticfiles/
+/playground/data/
+/static/data/processed/
+
+.env
+temp/
+
+firebase_config.json
+firebase_config.json
